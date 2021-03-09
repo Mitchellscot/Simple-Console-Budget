@@ -6,7 +6,7 @@ public class Entry
     public int Id { get; set; }
     public DateTime Date { get; set; }
     public Double Amount { get; set; }
-    public Catagory Catagory {get; set;}
+    public Catagory Catagory { get; set; }
     public string Description { get; set; }
 
     public void SetDate(string date)
@@ -18,9 +18,9 @@ public class Entry
         }
         catch (Exception ex)
         {
-            
+
             Console.WriteLine(ex.Message);
-            
+
         }
     }
     public void SetAmount(string amount)
@@ -44,7 +44,7 @@ public class Entry
             {
                 case 1: this.Catagory = Catagory.Mortgage; break;
                 case 2: this.Catagory = Catagory.Groceries; break;
-                case 3: this.Catagory = Catagory.Clothing; break ;
+                case 3: this.Catagory = Catagory.Clothing; break;
                 default: this.Catagory = Catagory.uncatagorized; break;
             }
         }
@@ -60,25 +60,25 @@ public class Entry
         {
             return;
         }
-        else 
+        else
         {
             this.Description = s;
         }
     }
 
-public static void AddEntry(Entry entry)
-{
-                Console.WriteLine("Please enter a date for the expense you are entering: ");
-                entry.SetDate(Console.ReadLine());
-                Console.WriteLine("Please enter an amount: ");
-                entry.SetAmount(Console.ReadLine());
-                DisplayCatagories();
-                entry.SetCatagory(Console.ReadLine());
-                Console.WriteLine("Please enter a description, or press s to skip");
-                entry.SetDescription(Console.ReadLine());
+    public static void AddEntry(Entry entry)
+    {
+        Console.WriteLine("Please enter a date for the expense you are entering: ");
+        entry.SetDate(Console.ReadLine());
+        Console.WriteLine("Please enter an amount: ");
+        entry.SetAmount(Console.ReadLine());
+        DisplayCatagories();
+        entry.SetCatagory(Console.ReadLine());
+        Console.WriteLine("Please enter a description, or press s to skip");
+        entry.SetDescription(Console.ReadLine());
 
-}
-    
+    }
+
     public static void DisplayAll(List<Entry> entries)
     {
         Console.WriteLine($"Here are the entries");

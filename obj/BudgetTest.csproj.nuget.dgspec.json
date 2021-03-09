@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "G:\\OneDrive\\Projects\\BudgetTest\\BudgetTest.csproj": {}
+    "/home/mitch/Code/BudgetTest/BudgetTest.csproj": {}
   },
   "projects": {
-    "G:\\OneDrive\\Projects\\BudgetTest\\BudgetTest.csproj": {
+    "/home/mitch/Code/BudgetTest/BudgetTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\OneDrive\\Projects\\BudgetTest\\BudgetTest.csproj",
+        "projectUniqueName": "/home/mitch/Code/BudgetTest/BudgetTest.csproj",
         "projectName": "BudgetTest",
-        "projectPath": "G:\\OneDrive\\Projects\\BudgetTest\\BudgetTest.csproj",
-        "packagesPath": "C:\\Users\\Mitch\\.nuget\\packages\\",
-        "outputPath": "G:\\OneDrive\\Projects\\BudgetTest\\obj\\",
+        "projectPath": "/home/mitch/Code/BudgetTest/BudgetTest.csproj",
+        "packagesPath": "/home/mitch/.nuget/packages/",
+        "outputPath": "/home/mitch/Code/BudgetTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mitch/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -36,7 +35,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

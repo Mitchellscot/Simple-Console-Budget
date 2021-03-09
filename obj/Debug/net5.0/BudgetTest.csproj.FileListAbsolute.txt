@@ -1,0 +1,16 @@
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest.deps.json
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest.runtimeconfig.json
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest.runtimeconfig.dev.json
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest.dll
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/ref/BudgetTest.dll
+/home/mitch/Code/BudgetTest/bin/Debug/net5.0/BudgetTest.pdb
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.csprojAssemblyReference.cache
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.AssemblyInfoInputs.cache
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.AssemblyInfo.cs
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.csproj.CoreCompileInputs.cache
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.dll
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/ref/BudgetTest.dll
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.pdb
+/home/mitch/Code/BudgetTest/obj/Debug/net5.0/BudgetTest.genruntimeconfig.cache

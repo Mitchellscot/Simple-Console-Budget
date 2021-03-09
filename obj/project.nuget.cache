@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cxBl+0iIktJ7mIW1Z43G6Vj4bddwCi0A0Nz8y8fMGVe2xM3PsJscn40wXf7ehI2OEY7IhhCnrpPL5HsGoyt9xg==",
+  "dgSpecHash": "BNWrOPEHQE5/1yKv6L8FsFHFnh5iJM7w8d6nBTJ8GQNPDJSPM+z3KmyhnjEk1D0JwcOwCC7D027eNuwcDp76kA==",
   "success": true,
-  "projectFilePath": "G:\\OneDrive\\Projects\\BudgetTest\\BudgetTest.csproj",
+  "projectFilePath": "/home/mitch/Code/BudgetTest/BudgetTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

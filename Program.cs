@@ -14,29 +14,29 @@ namespace BudgetTest
             while (b == true)
             {
                 List<Entry> entries = new List<Entry>();
-                
+
                 if (input == "y")
                 {
                     while (true)
                     {
-                    Entry entry = new Entry();
-                    Entry.AddEntry(entry);
-                    entries.Add(entry);
-                    WriteLine("Would you like to add another? y/n");
-                    var input2 = ReadLine();
-                    if(input2 == "y")
-                    {
-                        continue;
-                    }
-                    else 
-                    {
-                        Entry.DisplayAll(entries);
-                        b = false;
-                        break;
-                    }
+                        Entry entry = new Entry();
+                        Entry.AddEntry(entry);
+                        entries.Add(entry);
+                        WriteLine("Would you like to add another? y/n");
+                        var input2 = ReadLine();
+                        if (input2 == "y")
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            Entry.DisplayAll(entries);
+                            b = false;
+                            break;
+                        }
                     }
                 }
-                else if (input =="n")
+                else if (input == "n")
                 {
                     WriteLine($"Alright, have a nice day.");
                     break;
